@@ -7,4 +7,8 @@ def reverse_each_word(sentence)
     words[counter].gsub(/\W/,'')
     counter += 1
   end #end while
+  
+  words.each do |word|
+    
+  end #end reversing block
 end
