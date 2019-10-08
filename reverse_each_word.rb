@@ -4,11 +4,11 @@ def reverse_each_word(sentence)
   #Now eliminate any puncutation...
   counter = 0
   while counter < words.length do
-    words[counter].gsub(/\W/,'')
+    words[counter] = words[counter].gsub(/\W/,'')
     counter += 1
   end #end while
   
   words.each do |word|
-    word.reverse
+    word.reverse!
   end #end reversing block
 end
