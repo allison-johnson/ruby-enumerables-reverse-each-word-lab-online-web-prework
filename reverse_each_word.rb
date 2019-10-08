@@ -9,6 +9,6 @@ def reverse_each_word(sentence)
   end #end while
   
   words.each do |word|
-    
+    word.reverse
   end #end reversing block
 end
